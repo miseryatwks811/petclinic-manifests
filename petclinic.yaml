@@ -55,7 +55,7 @@ metadata:
   name: prod-tekton-petclinic-ingress
 spec:
   rules:
-  - host: user20-prod-tekton-petclinic.ext01.k8slabhpe.net
+  - host: user20-prod-tekton-petclinic.internal.k8slabhpe.net
     http:
       paths:
       - path: /
