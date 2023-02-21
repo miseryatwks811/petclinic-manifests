@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: prod-tekton-petclinic
-        image: tk6117/petclinic-app:acb7c5f03c13db0c83b3d6636ebff92be25678f6
+        image: tk6117/petclinic-app:f740fbb337002fb727bbc3e73ec36c85020d93ea
         livenessProbe:
           httpGet:
             path: /actuator/health
