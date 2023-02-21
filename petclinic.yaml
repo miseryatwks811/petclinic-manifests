@@ -6,7 +6,7 @@ metadata:
   labels:
     app: prod-tekton-petclinic-app
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: prod-tekton-petclinic-app
@@ -55,7 +55,7 @@ metadata:
   name: prod-tekton-petclinic-ingress
 spec:
   rules:
-  - host: user18-prod-tekton-petclinic.internal.k8slabhpe.net
+  - host: user18-prod-tekton-petclinic.test.k8slabhpe.net
     http:
       paths:
       - path: /
