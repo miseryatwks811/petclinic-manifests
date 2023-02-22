@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: prod-tekton-petclinic
-        image: tk6117/petclinic-app:f740fbb337002fb727bbc3e73ec36c85020d93ea
+        image: tk6117/petclinic-app:18710d40d2f2e4e7f33ffc2e15ddc0d01d161b77
         livenessProbe:
           httpGet:
             path: /actuator/health
@@ -55,7 +55,7 @@ metadata:
   name: prod-tekton-petclinic-ingress
 spec:
   rules:
-  - host: user18-prod-tekton-petclinic.test.k8slabhpe.net
+  - host: user20-prod-tekton-petclinic.test.k8slabhpe.net
     http:
       paths:
       - path: /
