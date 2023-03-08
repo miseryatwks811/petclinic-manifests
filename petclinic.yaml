@@ -5,6 +5,7 @@ metadata:
   name: prod-tekton-petclinic-app
   labels:
     app: prod-tekton-petclinic-app
+    owner: user20
 spec:
   replicas: 1
   selector:
